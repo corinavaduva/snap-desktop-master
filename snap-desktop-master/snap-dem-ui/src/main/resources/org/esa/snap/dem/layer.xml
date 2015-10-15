@@ -1,0 +1,121 @@
+<filesystem>
+
+    <folder name="Actions">
+        <folder name="Readers">
+            <file name="org-esa-snap-dem-dataio-importACEDEMProduct.instance">
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="delegate" methodvalue="org.esa.snap.rcp.actions.file.ImportProductAction.create"/>
+                <attr name="displayName" stringvalue="ACE DEM Tile"/>
+                <attr name="formatName" stringvalue="ACE"/>
+                <attr name="useAllFileFilter" boolvalue="false"/>
+                <attr name="helpId" stringvalue="importACEProduct"/>
+                <attr name="ShortDescription" stringvalue="Import a ACE DEM tile"/>
+            </file>
+            <file name="org-esa-snap-dem-dataio-importSRTMGeoTIFFDEMProduct.instance">
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="delegate" methodvalue="org.esa.snap.rcp.actions.file.ImportProductAction.create"/>
+                <attr name="displayName" stringvalue="SRTM GeoTIFF DEM Tile"/>
+                <attr name="formatName" stringvalue="GeoTIFF"/>
+                <attr name="useAllFileFilter" boolvalue="false"/>
+                <attr name="helpId" stringvalue="importSRTMProduct"/>
+                <attr name="ShortDescription" stringvalue="Import a SRTM DEM tile"/>
+            </file>
+            <file name="org-esa-snap-dem-dataio-importSRTMArcGridDEMProduct.instance">
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="delegate" methodvalue="org.esa.snap.rcp.actions.file.ImportProductAction.create"/>
+                <attr name="displayName" stringvalue="SRTM ArcGrid DEM Tile"/>
+                <attr name="formatName" stringvalue="ARC_INFO_BIN_GRID"/>
+                <attr name="useAllFileFilter" boolvalue="false"/>
+                <attr name="helpId" stringvalue="importSRTMProduct"/>
+                <attr name="ShortDescription" stringvalue="Import a SRTM ArcInfo Grid DEM tile"/>
+            </file>
+            <file name="org-esa-snap-dem-dataio-importSRTMHGTDEMProduct.instance">
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="delegate" methodvalue="org.esa.snap.rcp.actions.file.ImportProductAction.create"/>
+                <attr name="displayName" stringvalue="SRTM HGT DEM Tile"/>
+                <attr name="formatName" stringvalue="HGT"/>
+                <attr name="useAllFileFilter" boolvalue="false"/>
+                <attr name="helpId" stringvalue="importSRTMProduct"/>
+                <attr name="ShortDescription" stringvalue="Import a SRTM HGT DEM tile"/>
+            </file>
+            <file name="org-esa-snap-dem-dataio-importSRTMHGTDEMProduct.instance">
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="delegate" methodvalue="org.esa.snap.rcp.actions.file.ImportProductAction.create"/>
+                <attr name="displayName" stringvalue="SRTM HGT DEM Tile"/>
+                <attr name="formatName" stringvalue="HGT"/>
+                <attr name="useAllFileFilter" boolvalue="false"/>
+                <attr name="helpId" stringvalue="importSRTMProduct"/>
+                <attr name="ShortDescription" stringvalue="Import a SRTM HGT DEM tile"/>
+            </file>
+            <file name="org-esa-snap-dem-dataio-importAsterDEMProduct.instance">
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="delegate" methodvalue="org.esa.snap.rcp.actions.file.ImportProductAction.create"/>
+                <attr name="displayName" stringvalue="ASTER GeoTIFF DEM Tile"/>
+                <attr name="formatName" stringvalue="GeoTIFF"/>
+                <attr name="useAllFileFilter" boolvalue="false"/>
+                <attr name="helpId" stringvalue="importASTERProduct"/>
+                <attr name="ShortDescription" stringvalue="Import a ASTER DEM tile"/>
+            </file>
+        </folder>
+
+        <folder name="Operators">
+            <file name="org-esa-snap-dem-gpf-FillDEMHoleOp-Action.instance">
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="delegate" methodvalue="org.esa.snap.graphbuilder.rcp.actions.OperatorAction.create"/>
+                <attr name="displayName" stringvalue="Fill DEM Hole"/>
+                <attr name="operatorName" stringvalue="Fill-DEM-Hole"/>
+                <attr name="dialogTitle" stringvalue="Fill DEM Hole"/>
+                <attr name="ShortDescription" stringvalue="Fill holes in a DEM product"/>
+                <attr name="targetProductNameSuffix" stringvalue="_fill"/>
+                <attr name="icon" stringvalue="esaIcon"/>
+            </file>
+        </folder>
+    </folder>
+
+    <folder name="Menu">
+        <folder name="File">
+            <folder name="Import">
+                <folder name="DEM">
+                    <file name="org-esa-snap-dem-dataio-importACEDEMProduct.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Readers/org-esa-snap-dem-dataio-importACEDEMProduct.instance"/>
+                        <attr name="position" intvalue="100"/>
+                    </file>
+                    <file name="org-esa-snap-dem-dataio-importAsterDEMProduct.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Readers/org-esa-snap-dem-dataio-importAsterDEMProduct.instance"/>
+                        <attr name="position" intvalue="200"/>
+                    </file>
+                    <file name="org-esa-snap-dem-dataio-importSRTMArcGridDEMProduct.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Readers/org-esa-snap-dem-dataio-importSRTMArcGridDEMProduct.instance"/>
+                        <attr name="position" intvalue="300"/>
+                    </file>
+                    <file name="org-esa-snap-dem-dataio-importSRTMGeoTIFFDEMProduct.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Readers/org-esa-snap-dem-dataio-importSRTMGeoTIFFDEMProduct.instance"/>
+                        <attr name="position" intvalue="400"/>
+                    </file>
+                    <file name="org-esa-snap-dem-dataio-importSRTMHGTDEMProduct.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Readers/org-esa-snap-dem-dataio-importSRTMHGTDEMProduct.instance"/>
+                        <attr name="position" intvalue="500"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+
+        <folder name="Raster">
+            <folder name="DEM Tools">
+                <attr name="position" intvalue="200"/>
+                <file name="org-esa-snap-dem-gpf-FillDEMHoleOp-Action.shadow">
+                    <attr name="originalFile" stringvalue="Actions/Operators/org-esa-snap-dem-gpf-FillDEMHoleOp-Action.instance"/>
+                    <attr name="position" intvalue="300"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+
+    <folder name="OperatorUIs">
+        <file name="org.esa.snap.dem.gpf.ui.AddElevationOpUI">
+            <attr name="operatorUIClass" stringvalue="org.esa.snap.dem.gpf.ui.AddElevationOpUI"/>
+            <attr name="operatorName" stringvalue="AddElevation"/>
+        </file>
+    </folder>
+
+</filesystem>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <!--
+    SNAP's main menu entries
+    -->
+    <folder name="Menu">
+
+        <folder name="File">
+            <!-- Enable, once we know how to print an image view, etc. -->
+            <file name="org-netbeans-modules-print-action-PageSetupAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-print-action-PrintAction.shadow_hidden"/>
+
+            <file name="org-openide-actions-SaveAction.shadow_hidden"/>
+            <file name="org-openide-actions-SaveAsAction.shadow_hidden"/>
+            <file name="org-openide-actions-SaveAllAction.shadow_hidden"/>
+
+            <attr name="position" intvalue="100"/>
+            <folder name="Session">
+                <attr name="position" intvalue="100"/>
+                <attr name="seperatorBefore" intvalue="99"/>
+            </folder>
+            <folder name="Import">
+                <attr name="position" intvalue="150"/>
+            </folder>
+            <folder name="Export">
+                <attr name="position" intvalue="200"/>
+                <attr name="seperatorAfter" intvalue="260"/>
+                <folder name="Other"/>
+            </folder>
+        </folder>
+
+        <folder name="Edit">
+            <attr name="position" intvalue="200"/>
+            <!--A CallbackSystemAction, allows to search for something (e.g. in text files), Only enabled if key is mapped to an implementation -->
+            <file name="org-openide-actions-FindAction.shadow_hidden"/>
+            <!--A CallbackSystemAction, allows to replace something (e.g. in text files), Only enabled if key is mapped to an implementation -->
+            <file name="org-openide-actions-ReplaceAction.shadow_hidden"/>
+            <!-- Action to open a properties window, moved here from Window/Tools menu-->
+            <file name="org-netbeans-core-windows-actions-GlobalPropertiesAction.shadow">
+                <attr name="originalFile"
+                      stringvalue="Actions/Window/org-netbeans-core-windows-actions-GlobalPropertiesAction.instance"/>
+                <attr name="position" intvalue="11001"/>
+                <attr name="seperatorBefore" intvalue="11000"/>
+            </file>
+
+        </folder>
+
+        <folder name="View">
+            <attr name="position" intvalue="300"/>
+            <file name="org-netbeans-core-actions-LogAction.shadow_hidden"/>
+            <folder name="Tool Windows">
+                <attr name="position" intvalue="0"/>
+                <!-- Action to open a properties window, moved here from Window/Tools menu-->
+                <file name="org-netbeans-core-windows-actions-GlobalPropertiesAction.shadow">
+                    <attr name="originalFile"
+                          stringvalue="Actions/Window/org-netbeans-core-windows-actions-GlobalPropertiesAction.instance"/>
+                    <attr name="position" intvalue="200"/>
+                </file>
+                <file name="org-netbeans-core-io-ui-IOWindowAction.shadow">
+                    <attr name="originalFile"
+                          stringvalue="Actions/Window/org-netbeans-core-io-ui-IOWindowAction.instance"/>
+                    <attr name="position" intvalue="10000"/>
+                </file>
+            </folder>
+            <file name="org-netbeans-core-windows-actions-ToolbarsListAction.shadow">
+                <attr name="position" intvalue="200"/>
+            </file>
+        </folder>
+
+        <folder name="Analysis">
+            <attr name="position" intvalue="400"/>
+        </folder>
+
+        <folder name="Layer">
+            <attr name="position" intvalue="420"/>
+        </folder>
+
+        <folder name="Vector">
+            <attr name="position" intvalue="450"/>
+            <folder name="Import">
+                <attr name="position" intvalue="200"/>
+            </folder>
+            <folder name="Export">
+                <attr name="position" intvalue="300"/>
+            </folder>
+        </folder>
+
+        <folder name="Raster">
+            <attr name="position" intvalue="470"/>
+            <folder name="Geometric Operations">
+                <attr name="position" intvalue="100"/>
+            </folder>
+            <folder name="Masks">
+                <attr name="position" intvalue="300"/>
+            </folder>
+            <folder name="Export">
+                <attr name="position" intvalue="500"/>
+            </folder>
+        </folder>
+
+        <folder name="Optical">
+            <attr name="position" intvalue="500"/>
+            <folder name="Geometric">
+                <attr name="position" intvalue="100"/>
+            </folder>
+            <folder name="Thematic Land Processing">
+                <attr name="position" intvalue="300"/>
+            </folder>
+        </folder>
+
+        <folder name="Tools">
+            <attr name="position" intvalue="600"/>
+            <!-- Allows to manage file templates (e.g. java, xml html, etc.), not applicable for us.-->
+            <file name="org-netbeans-modules-templates-actions-TemplatesAction.shadow_hidden"/>
+        </folder>
+
+        <folder name="Window">
+            <attr name="position" intvalue="700"/>
+            <!-- Moved on level down in the menu hierarchy-->
+            <file name="org-netbeans-core-io-ui-IOWindowAction.shadow_hidden"/>
+            <!--Simply navigates back to the previous active document -->
+            <file name="SwitchToRecentDocumentAction.shadow_hidden"/>
+            <!-- The favorites window which we can't use right now, because we can't open files from there. -->
+            <file name="org-netbeans-modules-favorites-View.shadow_hidden"/>
+            <!-- Actions for creating and managing document groups; we don't want to use them, they are confusing and we have workspaces-->
+            <file name="GroupsMenuAction.shadow_hidden"/>
+            <file name="DocumentsAction.shadow_hidden"/>
+
+            <folder name="Web_hidden">
+                <!-- Action to open a browser document window-->
+                <file name="org-netbeans-core-actions-HTMLViewAction.shadow_hidden"/>
+            </folder>
+            <folder name="Tools_hidden">
+                <!-- Action to open a properties window, moved into 'View/Tool Windows' menu-->
+                <file name="org-netbeans-core-windows-actions-GlobalPropertiesAction.shadow_hidden"/>
+            </folder>
+
+            <!--Moved here from the GoTo (Navigate) menu-->
+            <file name="org-netbeans-core-windows-actions-RecentViewListAction.shadow">
+                <attr name="originalFile"
+                      stringvalue="Actions/Window/org-netbeans-core-windows-actions-RecentViewListAction.instance"/>
+                <attr name="position" intvalue="20250"/>
+            </file>
+
+        </folder>
+
+        <folder name="Help">
+            <attr name="position" intvalue="9000"/>
+            <file name="org-netbeans-core-actions-AboutAction.shadow_hidden"/>
+        </folder>
+
+        <file name="Spacer.instance">
+            <attr name="instanceCreate"
+                  methodvalue="javax.swing.Box.createHorizontalGlue"/>
+            <attr name="position" intvalue="9005"/>
+        </file>
+        <file name="org-netbeans-modules-quicksearch-QuickSearchAction.shadow">
+            <attr name="originalFile"
+                  stringvalue="Actions/Edit/org-netbeans-modules-quicksearch-QuickSearchAction.instance"/>
+            <attr name="position" intvalue="9010"/>
+        </file>
+
+        <folder name="GoTo_hidden">
+            <!--Simply navigates back to the previous active window, moved to the Windows menu -->
+            <file name="org-netbeans-core-windows-actions-RecentViewListAction.shadow_hidden"/>
+            <!--A CallbackSystemAction; allows to go to specific place (e.g. line in text files)-->
+            <file name="org-openide-actions-GotoAction.shadow_hidden"/>
+            <!--We currently have no favorites view, so we can't select anything there.-->
+            <file name="org-netbeans-modules-favorites-SelectInFavorites.shadow_hidden"/>
+        </folder>
+
+    </folder>
+
+    <!--
+    SNAP's toolbar groups
+    -->
+    <folder name="Toolbars">
+        <file name="Standard.xml" url="toolbars/Standard.xml"/>
+        <file name="Developer.xml" url="toolbars/Developer.xml"/>
+
+        <folder name="File"> <!-- defined by NetBeans -->
+            <attr name="position" intvalue="100"/>
+        </folder>
+        <folder name="Clipboard"> <!-- defined by NetBeans -->
+            <attr name="position" intvalue="200"/>
+        </folder>
+        <folder name="UndoRedo"> <!-- defined by NetBeans -->
+            <attr name="position" intvalue="300"/>
+        </folder>
+        <folder name="Analysis">
+            <attr name="position" intvalue="400"/>
+        </folder>
+        <folder name="Overlay">
+            <attr name="position" intvalue="500"/>
+        </folder>
+        <folder name="Processing">
+            <attr name="position" intvalue="600"/>
+        </folder>
+        <folder name="Tools">
+            <attr name="position" intvalue="700"/>
+        </folder>
+        <folder name="Tool Windows">
+            <attr name="position" intvalue="800"/>
+        </folder>
+        <folder name="Window Arrangement"> <!-- defined by tiled-editors -->
+            <attr name="position" intvalue="1500"/>
+        </folder>
+        <folder name="Memory"> <!-- defined by NetBeans -->
+            <attr name="position" intvalue="1600"/>
+        </folder>
+    </folder>
+
+    <!--
+    SNAP autoupdate extensions
+    -->
+    <folder name="Services">
+        <folder name="AutoupdateType">
+            <file name="snap_update_center.instance">
+                <attr name="displayName" stringvalue="SNAP"/>
+                <attr name="enabled" boolvalue="true"/>
+                <attr name="instanceCreate"
+                      methodvalue="org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogFactory.createUpdateProvider"/>
+                <attr name="instanceOf" stringvalue="org.netbeans.spi.autoupdate.UpdateProvider"/>
+                <attr name="url" urlvalue="http://step.esa.int/updatecenter/2.0/snap/updates.xml.gz"/>
+            </file>
+            <file name="snap_extensions_update_center.instance">
+                <attr name="displayName" stringvalue="SNAP Extensions"/>
+                <attr name="enabled" boolvalue="true"/>
+                <attr name="instanceCreate"
+                      methodvalue="org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogFactory.createUpdateProvider"/>
+                <attr name="instanceOf" stringvalue="org.netbeans.spi.autoupdate.UpdateProvider"/>
+                <attr name="url" urlvalue="http://step.esa.int/updatecenter/2.0/snap-extensions/updates.xml.gz"/>
+            </file>
+            <file name="snap_community_update_center.instance">
+                <attr name="displayName" stringvalue="SNAP Community Extensions"/>
+                <attr name="enabled" boolvalue="true"/>
+                <attr name="instanceCreate"
+                      methodvalue="org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogFactory.createUpdateProvider"/>
+                <attr name="instanceOf" stringvalue="org.netbeans.spi.autoupdate.UpdateProvider"/>
+                <attr name="url" urlvalue="http://step.esa.int/updatecenter/2.0/snap-community/updates.xml.gz"/>
+            </file>
+        </folder>
+    </folder>
+
+    <!--
+    SNAP context menu entries. These are looked up from the nodes representing our product data model.
+    -->
+    <folder name="Context">
+        <folder name="Product">
+            <folder name="ProductNode">
+                <file name="org-openide-actions-CutAction-separatorBefore.instance">
+                    <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                    <attr name="position" intvalue="500"/>
+                </file>
+                <file name="org-openide-actions-CutAction.shadow">
+                    <attr name="originalFile"
+                          stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                    <attr name="position" intvalue="510"/>
+                </file>
+                <file name="org-openide-actions-CopyAction.shadow">
+                    <attr name="originalFile"
+                          stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                    <attr name="position" intvalue="520"/>
+                </file>
+                <file name="org-openide-actions-PasteAction.shadow">
+                    <attr name="originalFile"
+                          stringvalue="Actions/Edit/org-openide-actions-PasteAction.instance"/>
+                    <attr name="position" intvalue="530"/>
+                </file>
+                <file name="org-openide-actions-DeleteAction.shadow">
+                    <attr name="originalFile"
+                          stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                    <attr name="position" intvalue="540"/>
+                </file>
+                <file name="org-openide-actions-PropertiesAction-separatorBefore.instance">
+                    <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                    <attr name="position" intvalue="700"/>
+                </file>
+                <file name="org-openide-actions-PropertiesAction.shadow">
+                    <attr name="originalFile"
+                          stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                    <attr name="position" intvalue="710"/>
+                </file>
+            </folder>
+
+            <folder name="Product">
+            </folder>
+
+            <folder name="MetadataElement">
+            </folder>
+
+            <folder name="MetadataAttribute">
+            </folder>
+
+            <folder name="VectorDataNode">
+            </folder>
+
+            <folder name="RasterDataNode">
+            </folder>
+
+            <folder name="TiePointGrid">
+            </folder>
+
+            <folder name="Mask">
+            </folder>
+
+            <folder name="Band">
+            </folder>
+
+        </folder>
+
+        <!-- Context for image view windows, provided by instances of ProductSceneView -->
+        <folder name="ProductSceneView"/>
+
+        <!-- Context for placemark view windows, provided by instances of ProductPlacemarkView -->
+        <folder name="ProductPlacemarkView"/>
+
+    </folder>
+
+    <!--
+        Associate some system actions with default key bindings as this is not done by NetBeans automatically.
+    -->
+    <folder name="Shortcuts">
+        <file name="D-Z.shadow">
+            <attr name="originalFile"
+                  stringvalue="Actions/Edit/org-openide-actions-UndoAction.instance"/>
+        </file>
+        <file name="D-Y.shadow">
+            <attr name="originalFile"
+                  stringvalue="Actions/Edit/org-openide-actions-RedoAction.instance"/>
+        </file>
+        <file name="D-C.shadow">
+            <attr name="originalFile"
+                  stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+        </file>
+        <file name="D-X.shadow">
+            <attr name="originalFile"
+                  stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+        </file>
+        <file name="D-V.shadow">
+            <attr name="originalFile"
+                  stringvalue="Actions/Edit/org-openide-actions-PasteAction.instance"/>
+        </file>
+        <file name="DELETE.shadow">
+            <attr name="originalFile"
+                  stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+        </file>
+    </folder>
+
+
+    <!--
+    Hide some of NetBeans' standard window actions.
+    -->
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-netbeans-core-windows-actions-NewTabGroupAction.instance_hidden"/>
+            <file name="org-netbeans-core-windows-actions-CollapseTabGroupAction.instance_hidden"/>
+        </folder>
+        <folder name="Help">
+            <file name="org-netbeans-core-actions-AboutAction.instance_hidden"/>
+        </folder>
+    </folder>
+
+    <!--
+    Re-configure some of the default options.
+    See https://forums.netbeans.org/ntopic22790.html for information on how to find the keys.
+    -->
+
+    <folder name="OptionsDialog">
+        <folder name="Advanced">
+            <file name="org-netbeans-core-ui-options-filetypes-FileAssociationsOptionsPanelController.instance_hidden"/>
+        </folder>
+        <file name="General.instance_hidden"/>
+        <file name="Advanced.instance_hidden"/>
+
+            <file name="Proxy.instance">
+                <attr methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+                <attr name="controller" newvalue="org.netbeans.core.ui.options.general.GeneralOptionsPanelController"/>
+                <!--<attr bundlevalue="org.netbeans.core.ui.options.general.Bundle#CTL_General_Options" name="categoryName"/>-->
+                <attr bundlevalue="org.esa.snap.rcp.Bundle#ProxyOptionsTabName" name="categoryName"/>
+                <attr intvalue="4" name="position"/>
+                <attr name="iconBase" stringvalue="org/esa/snap/rcp/icons/www_32x32.png"/>
+                <attr bundlevalue="org.esa.snap.rcp.Bundle#ProxyOptionsKW" name="keywords"/>
+                <attr bundlevalue="org.esa.snap.rcp.Bundle#ProxyOptionsKWCategory" name="keywordsCategory"/>
+            </file>
+
+        <!--<file name="Advanced.instance_hidden"/>-->
+
+
+    </folder>
+
+    <!--
+    The 'navigator' window mode is not present by default, so we add it for SNAP.
+    See http://wiki.netbeans.org/TaT_FixNavigatorModeInRCPApp.
+    -->
+    <folder name="Windows2">
+        <folder name="Modes">
+            <file name="navigator.wsmode" url="modes/navigator.wsmode"/>
+            <file name="floating.wsmode" url="modes/floating.wsmode"/>
+            <file name="GeoCodingMode.wsmode" url="modes/GeoCodingMode.wsmode"/>
+            <file name="HistogramPlotMode.wsmode" url="modes/HistogramPlotMode.wsmode"/>
+            <file name="Information.wsmode" url="modes/Information.wsmode"/>
+            <file name="ProfilePlot.wsmode" url="modes/ProfilePlot.wsmode"/>
+            <file name="ScatterPlot.wsmode" url="modes/ScatterPlot.wsmode"/>
+            <file name="Statistics.wsmode" url="modes/Statistics.wsmode"/>
+            <file name="CorrelativePlot.wsmode" url="modes/CorrelativePlot.wsmode"/>
+        </folder>
+    </folder>
+
+    <folder name="LayerEditors">
+        <file name="VectorDataLayer">
+            <attr name="layerClass"
+                  stringvalue="org.esa.snap.ui.product.VectorDataLayer"/>
+            <attr name="editorFactoryClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.editors.VectorDataLayerEditorFactory"/>
+        </file>
+        <file name="ImageLayer">
+            <attr name="layerTypeClass"
+                  stringvalue="com.bc.ceres.glayer.support.ImageLayer$Type"/>
+            <attr name="editorClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.editors.ImageLayerEditor"/>
+        </file>
+        <file name="NoDataLayerType">
+            <attr name="layerTypeClass"
+                  stringvalue="org.esa.snap.core.layer.NoDataLayerType"/>
+            <attr name="editorClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.editors.NoDataLayerEditor"/>
+        </file>
+        <file name="FeatureLayerType">
+            <attr name="layerTypeClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.layersrc.shapefile.FeatureLayerType"/>
+            <attr name="editorClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.editors.FeatureLayerEditor"/>
+        </file>
+        <file name="GraticuleLayerType">
+            <attr name="layerTypeClass"
+                  stringvalue="org.esa.snap.core.layer.GraticuleLayerType"/>
+            <attr name="editorClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.editors.GraticuleLayerEditor"/>
+        </file>
+    </folder>
+    <folder name="LayerSources">
+        <file name="WmsLayerSource">
+            <attr name="displayName"
+                  stringvalue="Image from Web Map Server (WMS)"/>
+            <attr name="description"
+                  stringvalue="Retrieves images from a Web Map Server (WMS)"/>
+            <attr name="layerSourceClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.layersrc.wms.WmsLayerSource"/>
+        </file>
+        <file name="ShapefileLayerSource">
+            <attr name="displayName"
+                  stringvalue="ESRI Shapefile"/>
+            <attr name="description"
+                  stringvalue="Displays shapes from an ESRI Shapefile"/>
+            <attr name="layerSourceClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.layersrc.shapefile.ShapefileLayerSource"/>
+        </file>
+        <file name="ProductLayerSource">
+            <attr name="displayName"
+                  stringvalue="Image of Band / Tie-Point Grid"/>
+            <attr name="description"
+                  stringvalue="Displays images from a Band or Tie-Point Grid of compatible products"/>
+            <attr name="layerSourceClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.layersrc.product.ProductLayerSource"/>
+        </file>
+        <file name="ImageFileLayerSource">
+            <attr name="displayName"
+                  stringvalue="RGB Image from File"/>
+            <attr name="description"
+                  stringvalue="Displays RGB images read from JPEG, PNG or GIF file"/>
+            <attr name="layerSourceClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.layersrc.image.ImageFileLayerSource"/>
+        </file>
+        <file name="CollectionLayerSource">
+            <attr name="displayName"
+                  stringvalue="Layer Group"/>
+            <attr name="description"
+                  stringvalue="Inserts an empty layer group"/>
+            <attr name="layerSourceClass"
+                  stringvalue="org.esa.snap.ui.layer.CollectionLayerSource"/>
+        </file>
+        <file name="MerisWindFieldLayerSource">
+            <attr name="displayName"
+                  stringvalue="Wind speed vectors from MERIS ECMWF annotations"/>
+            <attr name="description"
+                  stringvalue="Creates a windfield layer based on MERIS 'zonal_wind' and 'merid_wind' data"/>
+            <attr name="layerSourceClass"
+                  stringvalue="org.esa.snap.rcp.layermanager.layersrc.windfield.WindFieldLayerSource"/>
+        </file>
+    </folder>
+</filesystem>

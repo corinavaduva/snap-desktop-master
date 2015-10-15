@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+        PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN"
+        "http://java.sun.com/products/javahelp/map_2_0.dtd">
+
+<map version="2.0">
+
+    <mapID target="top" url="general/overview/SnapOverview.html"/>
+
+    <mapID target="folder" url="images/HelpFolder.jpg"/>
+    <mapID target="doc" url="images/HelpDoc.jpg"/>
+
+    <mapID target="snapOverview" url="general/overview/SnapOverview.html"/>
+    <mapID target="snapDefinitions" url="general/overview/SnapDefinitions.html"/>
+    <mapID target="snapDataSources" url="general/overview/SnapDataSources.html"/>
+    <mapID target="snapRelatedLinks" url="general/overview/SnapRelatedLinks.html"/>
+    <mapID target="beamDimapFormat" url="general/overview/BeamDimapFormat.html"/>
+    <mapID target="pconvertTool" url="general/overview/PConvertUsage.html"/>
+    <mapID target="resamplingMethods" url="general/overview/ResamplingMethods.html"/>
+    <mapID target="endesktopProducts" url="general/endesktop-products/index.html"/>
+    <!-- todo -->
+
+    <mapID target="desktop" url="desktop/index.html"/>
+    <mapID target="mainToolbar" url="desktop/Toolbars.html"/>
+    <mapID target="menuBar" url="desktop/MenuBar.html"/>
+    <mapID target="fileMenu" url="desktop/FileMenu.html"/>
+    <mapID target="editMenu" url="desktop/EditMenu.html"/>
+    <mapID target="viewMenu" url="desktop/ViewMenu.html"/>
+    <mapID target="analysisMenu" url="desktop/AnalysisMenu.html"/>
+    <mapID target="utilitiesMenu" url="desktop/UtilitiesMenu.html"/>
+    <mapID target="processingMenu" url="desktop/ProcessingMenu.html"/>
+    <mapID target="windowMenu" url="desktop/WindowMenu.html"/>
+    <mapID target="helpMenu" url="desktop/HelpMenu.html"/>
+    <mapID target="moduleManager" url="desktop/ModuleManager.html"/>
+    <mapID target="productExplorer" url="desktop/ProductExplorer.html"/>
+    <mapID target="pixelInfoView" url="desktop/ProductExplorer.html#pixelView"/>
+    <mapID target="propertyEditor" url="desktop/PropertyEditor.html"/>
+    <mapID target="productGrabber" url="desktop/ProductGrabber.html"/>
+    <mapID target="subsetDialog" url="desktop/ProductSubsetDialog.html"/>
+    <mapID target="importDimapProduct" url="desktop/ImportDimap.html"/>
+    <mapID target="importEndesktopProduct" url="desktop/ImportEndesktop.html"/>
+    <mapID target="importErsProduct" url="desktop/ImportErs.html"/>
+    <mapID target="importMerisBinnedL3Product" url="desktop/ImportMerisBinnedL3.html"/>
+    <mapID target="importModisProduct" url="desktop/ImportModis.html"/>
+    <mapID target="importAtsrProduct" url="desktop/ImportATSR.html"/>
+    <mapID target="importGETASSE30" url="desktop/ImportGETASSE30.html"/>
+    <mapID target="importCSV" url="desktop/ImportCSV.html"/>
+    <mapID target="interpretPointData" url="desktop/ImportCSV.html#interpretPointData"/>
+    <mapID target="importCsvProduct" url="desktop/ImportCSVProduct.html"/>
+    <mapID target="importMermaid" url="desktop/ImportMermaid.html"/>
+    <mapID target="importSeaDASTrack" url="desktop/ImportSeaDASTrack.html"/>
+    <mapID target="importShapefile" url="desktop/ImportShapefile.html"/>
+    <mapID target="importLandsatProduct" url="desktop/ImportLandsat.html"/>
+    <mapID target="importAVHRR" url="desktop/ImportAVHRR.html"/>
+    <mapID target="importAvnir2Product" url="desktop/ImportAVNIR2.html"/>
+    <mapID target="importNasaObpgProduct" url="desktop/ImportNasaObpgHDF.html"/>
+    <mapID target="importChrisProduct" url="desktop/ImportChris.html"/>
+    <mapID target="importPrismProduct" url="desktop/ImportPRISM.html"/>
+    <mapID target="importNetCdfProduct" url="desktop/ImportNetCdf.html"/>
+    <mapID target="importSpotVgtProduct" url="desktop/ImportSpotVgt.html"/>
+    <mapID target="exportDimapProduct" url="desktop/ExportDimapProduct.html"/>
+    <mapID target="exportNetCdfProduct" url="desktop/ExportNetCdfProduct.html"/>
+    <mapID target="exportCsv" url="desktop/ExportCSV.html"/>
+    <mapID target="exportEnviGcpFile" url="desktop/ExportEnviGcpFile.html"/>
+    <mapID target="exportHdf5Product" url="desktop/ExportHDF.html"/>
+    <mapID target="exportProductMetadata" url="desktop/ExportProductMetadata.html"/>
+    <mapID target="exportImageFile" url="desktop/ExportImage.html"/>
+    <mapID target="exportKml" url="desktop/ExportKml.html"/>
+    <mapID target="exportMaskPixels" url="desktop/ExportMaskPixels.html"/>
+    <mapID target="exportTransectPixels" url="desktop/ExportTransectPixels.html"/>
+    <mapID target="exportShapefile" url="desktop/ExportShapefile.html"/>
+    <mapID target="exportLegendImageFile" url="desktop/ExportColorLegend.html"/>
+    <mapID target="exportColorPalette" url="desktop/ExportColorPalette.html"/>
+    <mapID target="preferences" url="desktop/PreferencesDialog.html"/>
+    <mapID target="imageView" url="desktop/ProductSceneView.html"/>
+    <mapID target="showLayerManagerWnd" url="desktop/LayerManagerWindow.html"/>
+    <mapID target="showNavigationWnd" url="desktop/NavigationWindow.html"/>
+    <mapID target="showColorManipulationWnd" url="desktop/ColorManipulationWindow.html"/>
+    <mapID target="showSpectrumWnd" url="desktop/SpectrumWindow.html"/>
+    <mapID target="spectrumChooser" url="desktop/SpectrumChooser.html"/>
+    <mapID target="showWorldMapWnd" url="desktop/WorldMap.html"/>
+    <mapID target="showGcpManagerWnd" url="desktop/GcpManagement.html"/>
+    <mapID target="showPinManagerWnd" url="desktop/PinManagement.html"/>
+    <mapID target="showMaskManagerWnd" url="desktop/MaskManagement.html"/>
+    <mapID target="noDataOverlay" url="desktop/NoDataOverlay.html"/>
+    <mapID target="noDataValue" url="desktop/NoDataValue.html"/>
+    <mapID target="informationDialog" url="desktop/InformationDialog.html"/>
+    <mapID target="geoCodingInfoDialog" url="desktop/GeoCodingInfo.html"/>
+    <mapID target="statisticsDialog" url="desktop/StatisticsDialog.html"/>
+    <mapID target="histogramDialog" url="desktop/HistogramDialog.html"/>
+    <mapID target="densityPlotDialog" url="desktop/DensityPlotDialog.html"/>
+    <mapID target="correlativePlotDialog" url="desktop/CorrelativePlotDialog.html"/>
+    <mapID target="profilePlotDialog" url="desktop/ProfilePlotDialog.html"/>
+    <mapID target="coordinateListView" url="desktop/CoordinateListView.html"/>
+    <mapID target="computeMaskArea" url="desktop/ComputeMaskArea.html"/>
+    <mapID target="createFilteredBand" url="desktop/CreateFilteredBand.html"/>
+    <mapID target="expressionEditor" url="desktop/ExpressionEditor.html"/>
+    <mapID target="rgbImageProfile" url="desktop/RGBImageProfile.html"/>
+    <mapID target="bandArithmetic" url="desktop/BandMaths.html"/>
+    <mapID target="vectorDataManagement" url="desktop/VectorDataManagement.html"/>
+
+
+    <mapID target="reprojectionAction" url="desktop/Reprojection.html"/>
+    <mapID target="orthorectificationAction" url="desktop/Orthorectification.html"/>
+    <mapID target="orthorectificationAlgo" url="desktop/OrthorectificationAlgo.html"/>
+    <mapID target="mosaicAction" url="desktop/Mosaic.html"/>
+    <mapID target="mosaicAlgo" url="desktop/MosaicAlgo.html"/>
+
+
+    <mapID target="demGETASSE30" url="desktop/GETASSE30ElevationModel.html"/>
+    <mapID target="createDemRelatedBands" url="desktop/CreateDemRelatedBands.html"/>
+    <mapID target="createAsarNrcsBands" url="desktop/CreateAsarNrcsBands.html"/>
+    <mapID target="dataFlip" url="desktop/DataFlip.html"/>
+    <mapID target="flipDialog" url="desktop/DataFlip.html"/>
+    <mapID target="pixelGeoCodingSetup" url="desktop/PixelGeoCoding.html"/>
+
+    <mapID target="geometryWKT" url="desktop/GeometryWKT.html"/>
+    <mapID target="convertBand" url="desktop/ConvertComputedBand.html"/>
+    <mapID target="displacementBands" url="desktop/CreateGCDisplacementBands.html"/>
+    C
+</map>

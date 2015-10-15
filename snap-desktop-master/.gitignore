@@ -1,0 +1,16 @@
+# Maven output
+target
+
+# IntelliJ IDEA project files
+.idea
+*.iml
+*.ipr
+*.ims
+
+# JVM crash reports
+hs_err_pid*
+
+# NetBeans configuration
+nb-configuration.xml
+
+Thumbs.db

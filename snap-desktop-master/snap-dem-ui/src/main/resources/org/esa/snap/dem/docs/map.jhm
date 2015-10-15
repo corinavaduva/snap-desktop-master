@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+        PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN"
+        "http://java.sun.com/products/javahelp/map_2_0.dtd">
+
+<map version="2.0">
+
+    <!-- DEMs -->
+    <mapID target="importGETASSE30" url="visat/GETASSE30ElevationModel.html"/>
+    <mapID target="importGTOPO30" url="readers/ImportGTOPO30.html"/>
+    <mapID target="importACE" url="readers/ImportACE.html"/>
+    <mapID target="importSRTM" url="readers/ImportSRTM.html"/>
+
+    <mapID target="FillHoleOp" url="operators/FillHoleOp.html"/>
+
+</map>

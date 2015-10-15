@@ -1,0 +1,3 @@
+org.esa.snap.ui.color.ColorEditor
+org.esa.snap.ui.product.ExpressionEditor$GeneralExpressionEditor
+org.esa.snap.ui.product.ExpressionEditor$BooleanExpressionEditor

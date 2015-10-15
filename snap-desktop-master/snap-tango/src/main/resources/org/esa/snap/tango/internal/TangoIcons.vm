@@ -1,0 +1,46 @@
+package org.esa.snap.tango;
+
+import org.openide.util.ImageUtilities;
+
+import javax.swing.ImageIcon;
+
+
+/**
+ * This class has been automatically generated.
+ *
+ * @author Norman Fomferra
+ */
+@SuppressWarnings("UnusedDeclaration")
+public final class TangoIcons {
+
+    public enum Res {
+        R16("16x16"),
+        R22("22x22"),
+        R32("32x32");
+
+        private final String name;
+
+        Res(String name) {
+            this.name = name;
+        }
+
+        @Override
+        public String toString() {
+            return name;
+        }
+    }
+
+    public final static Res R16 = Res.R16;
+    public final static Res R22 = Res.R22;
+    public final static Res R32 = Res.R32;
+
+${code}
+
+    private TangoIcons() {
+    }
+
+    private static ImageIcon getIcon(String name, Res res) {
+        String resourceName = "tango/" + res + "/" + name;
+        return ImageUtilities.loadImageIcon(resourceName, false);
+    }
+}

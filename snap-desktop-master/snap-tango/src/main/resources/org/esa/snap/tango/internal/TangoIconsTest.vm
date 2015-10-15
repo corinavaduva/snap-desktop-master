@@ -1,0 +1,17 @@
+package org.esa.snap.tango;
+
+import org.junit.Test;
+
+import static org.junit.Assert.assertNotNull;
+
+/**
+ * @author Norman Fomferra
+ */
+public class TangoIconsTest {
+
+    @Test
+    public void testAll() {
+
+${code}
+    }
+}
